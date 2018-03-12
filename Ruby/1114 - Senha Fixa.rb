@@ -1,10 +1,11 @@
-senha = gets.to_i()
-		do{
+senha = 0
+while senha != 2002
+	senha = gets.to_i()
+	if senha == 2002
+		puts "Acesso Permitido"
+	else if senha != 2002
 		puts "Senha Invalida"
-		if senha == 2002
-		puts "Acesso Permitido"	
-		end
-		while senha != 2002
-}
-
+	end
+end
+end
 /nao funcionou/

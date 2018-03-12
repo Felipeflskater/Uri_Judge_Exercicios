@@ -3,19 +3,14 @@ import java.util.Scanner;
 public class Main {
     public static void main(String[] args) throws IOException {
          Scanner input =new Scanner(System.in);
-         int senha=0,log=2;
-         senha = input.nextInt();
+         int senha;
              do{
+                senha = input.nextInt();
              if (senha == 2002){
-                System.out.print("Acesso Permitido");
-                log=1;
+                System.out.print("Acesso Permitido\n");
              }else{
-                System.out.print("Senha Invalida");
-                log=2;
+                System.out.print("Senha Invalida\n");
              }
             }
-             while (log == 2);   
+             while (senha != 2002);   
  }}
-
-
- // não rolou
