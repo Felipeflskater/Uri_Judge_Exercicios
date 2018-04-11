@@ -1,0 +1,1 @@
+select name from products where id_providers in (select id from providers where name ilike 'P%') and amount between 10 and 20
