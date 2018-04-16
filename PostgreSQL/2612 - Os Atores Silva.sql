@@ -1,0 +1,2 @@
+select distinct mo.id, mo.name from movies mo,movies_actors ma,genres g,actors a where 
+mo.id = ma.id_movies and mo.id_genres=g.id and ma.id_actors=a.id and g.description ilike '%Action%' and (a.name ilike '%Marcelo Silva%' or a.name ilike '%Miguel Silva%');

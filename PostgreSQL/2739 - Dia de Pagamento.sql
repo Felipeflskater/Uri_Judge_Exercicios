@@ -1,0 +1,1 @@
+select name,cast(cast(extract(day from payday)as float)as integer) as day from loan

@@ -1,0 +1,1 @@
+select p.name,m.name from products p, providers m where p.id_providers=m.id and m.name ilike '%Ajax SA%'
