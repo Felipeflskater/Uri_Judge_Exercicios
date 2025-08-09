@@ -10,15 +10,19 @@ O [Beecrowd](https://judge.beecrowd.com/) é uma plataforma de desafios de progr
 
 ---
 
-## 📂 Estrutura do Repositório
-Cada arquivo corresponde à solução de um problema, nomeado de acordo com o **ID do exercício** no Beecrowd.
+## 📂 Estrutura
+As pastas e arquivos estão organizados por linguagem de programação, facilitando a navegação e estudo dos códigos.
 
-Exemplo:
-```
-1001.c      → Exercício 1001 (Extremamente Básico)
-1002.py     → Exercício 1002 (Área do Círculo)
-...
-```
+---
+
+## 📊 Linguagens utilizadas
+
+- **C**  
+- **C#**  
+- **C++**  
+- **Java**  
+- **SQL**  
+- **Ruby**  
 
 ---
 
@@ -40,11 +44,6 @@ gcc 1001.c -o 1001
 ```bash
 python3 1002.py
 ```
-
----
-
-## 📊 Linguagens utilizadas neste repositório
-![Linguagens](https://github-readme-stats.vercel.app/api/top-langs/?username=Felipeflskater&repo=Uri_Judge_Exercicios&layout=compact&theme=dracula)
 
 ---
 
