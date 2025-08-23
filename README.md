@@ -24,7 +24,13 @@ As pastas e arquivos estão organizados por linguagem de programação, facilita
 - **SQL**  
 - **Ruby**  
 
+📌 Nível: Básico a intermediário  
+🎯 Temas: Estruturas de dados, algoritmos, lógica de programação
+
 ---
+
+
+
 
 ## 🚀 Como Executar os Exercícios
 
@@ -38,11 +44,6 @@ cd Uri_Judge_Exercicios
 ```bash
 gcc 1001.c -o 1001
 ./1001
-```
-
-3. **Executar em Python**
-```bash
-python3 1002.py
 ```
 
 ---
